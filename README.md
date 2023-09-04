@@ -1,4 +1,4 @@
-# Coleta e Exibição de Dados usando JavaScript
+#Cadastro de Contatos
 
 Este documento fornece uma explicação do script JavaScript que lida com a coleta, validação e exibição de dados de um formulário HTML, além de permitir a exclusão dos dados exibidos.
 
