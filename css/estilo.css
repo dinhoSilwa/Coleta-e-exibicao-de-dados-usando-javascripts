@@ -1,0 +1,187 @@
+/* Reset padrão para margin e padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos do corpo do documento */
+body {
+    background-color: #2c3e50;
+}
+
+/* Estilos do contêiner principal */
+.box {
+    background-color: #1abc9c;
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para os campos de entrada com placeholders personalizados */
+#nome::placeholder,
+#email::placeholder,
+#telefone::placeholder {
+    color: #a9a9a9;
+    font-size: 0.8rem;
+}
+
+/* Estilos para os campos de entrada */
+#nome,
+#email,
+#telefone {
+    font-weight: 600;
+    padding-left: 8%;
+}
+
+#nome {
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 80%;
+}
+
+#btn-cadastrar {
+    width: 80%;
+}
+
+/* Estilos para os ícones dentro dos campos de entrada */
+.input-icon {
+    position: relative;
+    top: 28px;
+    left: 42px;
+    color: #2c3e50;
+    z-index: 1;
+    opacity: 0.9;
+    width: 5%;
+}
+
+/* Estilos para texto destacado */
+.spt {
+    font-weight: bold;
+}
+
+/* Estilos do contêiner de dados */
+.custom-container {
+    width: 400px;
+}
+
+/* Estilos para a imagem do perfil */
+.perfil {
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* Estilos para os dados exibidos */
+.dados {
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/* Estilos para a div que contém os dados do contato */
+.dados-contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    width: 450px;
+    height: auto;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para os elementos dentro da div de dados */
+.dados span {
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+/* Estilos para ícones de ação */
+.dados-icon {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Estilos para o ícone de exclusão */
+.delete-icon {
+    border: 3px solid red;
+}
+
+/* Estilos para o nome do contato */
+#nomedados {
+    font-weight: bold;
+}
+
+/* Estilos para o e-mail do contato */
+#emaildados {
+    font-size: 0.7rem;
+}
+
+/* Estilos para o telefone do contato */
+#telefonedados {
+    font-size: 0.9rem;
+}
+
+/* Classe para ocultar elementos */
+.none {
+    display: none;
+    opacity: 0.5;
+}
+
+/* Estilos para a mensagem de erro */
+.avisoErro {
+    width: 220px;
+    height: 60px;
+    background-color: red;
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 1.6s ease, opacity 8s ease;
+}
+
+/* Estilos para o ícone de aviso de erro */
+.fa-exclamation-circle {
+    font-size: 1.5rem;
+}
+
+/* Classe para mostrar a mensagem de erro */
+.mostraavisoErro {
+    transform: translateY(100px);
+    opacity: 1;
+}
+
+/* Estilos para campos de e-mail com erro */
+.inputEmailRed {
+    border: 3px solid red;
+    color: red;
+}
+
+/* Estilos para o ícone de e-mail com erro */
+.iconEmailRed {
+    color: red;
+}
+
+/* Estilos para o placeholder do campo de e-mail com erro */
+.inputEmailRed::placeholder {
+    color: red;
+}
+
+/* Formatação dos elementos dinâmicos (não está claro qual parte do código é referente a isso) */
+/* input#email::placeholder{
+    background-color:rgba(255, 0, 0, 0.555);
+    color: red;
+    padding:20px;
+    width: 100%;
+} */

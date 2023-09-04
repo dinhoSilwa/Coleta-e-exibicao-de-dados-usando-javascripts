@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Inclui o CSS do Bootstrap, que é uma biblioteca de estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- Inclui um arquivo de estilo personalizado (estilo.css) -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Inclui o CSS da biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <!-- Uma div para exibir mensagens de erro -->
+   <div class="avisoErro mx-auto row d-flex flex-row" id="erro">
+        <!-- Ícone de aviso -->
+        <h6 class="col-2"><i class="fas fa-exclamation-circle"></i></h6>
+        <!-- Mensagem de erro -->
+        <h6 class="col-10" id="ErroInput"></h6>
+   </div>
+
+   <!-- Uma div principal com a classe "box" -->
+   <div class="box mx-auto mt-2 p-2 row">
+        <!-- Título -->
+        <h4 class="text-light pt-1 mx-auto">Cadastro de Contato:</h4>
+        <!-- Um formulário -->
+        <form action="">
+            <!-- Campo para inserir o nome -->
+            <div class="form-group mb-1 flex-column d-flex">
+                <!-- Ícone de usuário -->
+                <i class="fas fa-user input-icon"></i>
+                <input 
+                id="nome"
+                type="text" 
+                placeholder="Insira o nome: "
+                required
+                class="form-control mx-auto"
+                >
+            </div>
+            <!-- Campo para inserir o email -->
+            <div class="form-group mb-1 flex-column d-flex inputEmail">
+                <!-- Ícone de email -->
+                <i class="fas fa-envelope input-icon" id="iconeEmail"></i>
+                <input 
+                type="text" 
+                id="email"
+                placeholder="Insira o email: "
+                class="form-control mx-auto"
+                >
+            </div>
+            <!-- Campo para inserir o telefone -->
+            <div class="form-group mb-3 flex-column d-flex">
+                <!-- Ícone de telefone -->
+                <i class="fas fa-phone input-icon"></i>
+                <input 
+                type="text" 
+                id="telefone"
+                placeholder="Insira o telefone: "
+                class="form-control mx-auto"
+                >
+            </div>
+            <!-- Botão de cadastro -->
+            <div class="form-group mb-3 mx-auto flex-column d-flex" id="btn-cadastrar">
+                <div class="btn bg-black text-light" >Cadastrar</div>
+            </div>
+        </form>
+   </div>
+
+   <!-- Uma div vazia com o id "caixa-de-cadastro" (provavelmente será preenchida com dados posteriormente) -->
+   <div id="caixa-de-cadastro">
+
+   </div>
+   <!-- Scripts JavaScript -->
+   <script src="scripts/script.js">
+        /// cores para usar #e74c3c  #e67e22 #f1c40f #1abc9c
+   </script>
+
+   <!-- Inclui a biblioteca Cleave.js para formatação de input -->
+   <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+</body>
+</html>
