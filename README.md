@@ -46,3 +46,4 @@ Este documento fornece uma explicação do script JavaScript que lida com a cole
 
 Grande Abraço!! 
 Deixe seu Star se gostou😉
+......
